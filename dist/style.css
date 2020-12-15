@@ -1,0 +1,45 @@
+body{
+    background-color: mistyrose;
+    font-family: sans-serif;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+}
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:900px;
+    height:50px;
+}
+
+
+.nav-button{
+    background-color: inherit;
+    border: none;
+    font-size:large;
+}
+.nav-button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+
+h1,h2,h3,h4{
+    text-align: center;
+    opacity:1;
+}
+#logo{
+    height:200px;
+    width:200px;
+}
+
+#main-food{
+    height:600px;
+
+}

@@ -1,0 +1,8 @@
+{
+    "npm.fetchOnlinePackageInfo": false,
+    "json.schemaDownload.enable": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "typescript.disableAutomaticTypeAcquisition": true
+}
