@@ -1,7 +1,13 @@
 body{
-    background-color: mistyrose;
+    background-color: white;
     font-family: sans-serif;
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../assets/Onebillion-Script.ttf');
+  }
+
 .content{
     display:flex;
     flex-direction: column;
@@ -10,6 +16,12 @@ body{
 .header{
     display:flex;
     flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size:80px;
+    margin:20px;
+    font-family: myFirstFont, sans-serif;
 }
 .nav{
     display: grid;
@@ -23,23 +35,60 @@ body{
     background-color: inherit;
     border: none;
     font-size:large;
+    outline: 0;
 }
 .nav-button:hover{
-    background-color: lightcoral;
+    background-color: #ffdada;
     cursor: pointer;
+}
+
+.mainArea{
+    background-color:#ffb2b2;
+    height:100%;
+    width:900px;
+    height:600px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.nav-current{
+    background-color: #ffb2b2;
+    border:inherit;
+    font-size:large;
 }
 
 
 h1,h2,h3,h4{
     text-align: center;
-    opacity:1;
+    font-weight: 300;
+
 }
+.homeContent{
+    display:flex;
+    flex-direction: column;
+}
+.homeScript{
+    font-size:20px;
+    text-align: center;
+    font-weight: 300;
+    margin:20px;
+}
+.homeText{
+    margin: 0 30px 0 30px; 
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
 #logo{
     height:200px;
     width:200px;
 }
 
 #main-food{
-    height:600px;
+    height: 400px;
+    margin: 30px;
+    
 
 }
